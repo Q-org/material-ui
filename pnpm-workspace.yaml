@@ -9,6 +9,10 @@ packages:
   - apps/*
   - scripts/sizeSnapshot
 onlyBuiltDependencies:
+  - aws-sdk
+  - core-js
+  - core-js-pure
   - esbuild
   - msw
   - nx
+  - sharp
